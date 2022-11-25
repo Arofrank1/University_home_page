@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="edu.css">
+  
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Roboto+Condensed&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.2.0/css/fontawesome.min.css">
+</head>
+<body>
+     
+<section class="header">
+    <nav>
+        <a href="index.html"><img src="./logo.png" ></a>
+        <div class="nav-links" id="navlinks">
+            <i class="fa fa-times"  onclick="hidemenu()"></i>
+            <ul>
+                
+                <li><a href="#"> HOME</a></li>
+                <li><a href="#"> ABOUT</a></li>
+                <li><a href="#"> COURSE</a></li>
+                <li><a href="#"> BLOG</a></li>
+                <li><a href="#"> CONTACT</a></li>
+            </ul>
+        </div>
+       <i class="fa fa-bars" onclick="showmenu()"></i>
+    </nav>
+<div class="text-box">
+    <h1>World's Biggesst University</h1>
+    <p>hsavyuuuuusg saygudgsu sayguggdsu sdauggdiudgd dsajgdgid dshudiuddd duysgduysdg dgugihdisdsd ghsdhsz
+        dasjjhdsghdshj ahsaskj sskusdhsh</br> hggaj sjkahdhau ashjHDAHUIJK
+    </p>
+    
+    <a href="#" class="hero-btn">vist Us To Know More</a>
+    
+</div>
+
+</section>
+<!----course----->
+<section  class="course">
+    <h1>Course we offer</h1>
+    <p>dgyskg sdfh fdhs</p>
+</section> 
+
+
+<script>
+function hi(){
+    alert("Hello");
+}
+function hi1(event){
+    alert("hi")
+    event.stopPropagation()
+}
+let navlinks = document.getElementById("navlinks");
+
+function showmenu(){
+    navlinks.style.right ='0';
+}
+function hidemenu(){
+    navlinks.style.right ='-200px';
+}
+
+</script>
+</body>
+</html>
